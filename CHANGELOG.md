@@ -15,6 +15,41 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 - Automated testing of changelog publishing workflows
 
+## [2.5.0] - 2025-08-14
+
+### Added
+- **🎨 OCNetworks Brand Identity**: Restored authentic orange (#ff4500) theme throughout entire website
+- **🔧 Hero Section Redesign**: Fixed layout architecture with modern flexbox centering and responsive padding
+- **📱 Enhanced Navigation**: Updated header with OCNetworks branding, gradient login buttons, and mobile-optimized dropdowns
+- **✨ Fluid Typography System**: Complete implementation with fluid-xs through fluid-9xl using clamp() functions
+- **🏗️ Modern CSS Architecture**: Advanced features including nesting, custom properties, color-mix, and oklch color space
+- **📦 Container Query System**: Component-level responsiveness independent of viewport constraints
+- **🧹 Project Optimization**: Removed unused backup files and temporary assets for cleaner codebase
+
+### Changed
+- **Header Component**: Complete redesign from blue to authentic OCNetworks orange branding
+- **HeroCarousel Layout**: Fixed container nesting issues and improved responsive behavior
+- **Typography Scale**: All components now use fluid typography with automatic scaling
+- **Brand Colors**: Updated entire color palette to match OCNetworks identity (#ff4500 primary, #1a2332 dark)
+- **Button Styling**: Enhanced with gradients and hover effects matching brand guidelines
+
+### Fixed
+- **Hero Section Layout**: Resolved flexbox centering and container hierarchy issues
+- **Mobile Navigation**: Improved dropdown behavior and touch interactions
+- **Build Process**: Eliminated syntax errors and optimized bundle performance
+- **Responsive Padding**: Fixed spacing inconsistencies across all screen sizes
+
+### Removed
+- **Unused Backup Files**: Deleted Header_backup.tsx and other redundant components
+- **Temporary Assets**: Removed games-page-banner-temp-reduced.webp and other temp files
+- **Dead Code**: Cleaned up unused imports and optimized component structure
+
+### Technical Improvements
+- **CSS Performance**: Streamlined stylesheet architecture with 4 organized CSS files
+- **Build Optimization**: Successful builds in ~3.94s with no errors or warnings
+- **Code Quality**: Enhanced maintainability with consistent naming and structure
+- **Modern Standards**: Implemented cutting-edge CSS features for future-proof design
+
 ## [2.4.0] - 2025-08-14
 
 ### Added
